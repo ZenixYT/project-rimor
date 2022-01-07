@@ -2,5 +2,5 @@
 A text-based space game.
 
 # Credits
-zenn#0608 on Discord\n
-Hamburger Helper#1829 on Discord
+zenn#0608 on Discord.
+Hamburger Helper#1829 on Discord.
