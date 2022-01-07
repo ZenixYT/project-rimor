@@ -1,2 +1,6 @@
 # project-rimor
-A text-based space game made by me and Hamburger Helper on Discord.
+A text-based space game.
+
+# Credits
+zenn#0608 on Discord
+Hamburger Helper#1829 on Discord
