@@ -5,4 +5,4 @@ A text-based space game with procedural generation and fully-functional multipla
 - zenn#0608 on Discord.
 - Hamburger Helper#1829 on Discord.
 
-#**!!WARNING, THE GAME IS NOT PLAYABLE AT ALL YET!!**
+# **!!WARNING, THE GAME IS NOT PLAYABLE AT ALL YET!!**
