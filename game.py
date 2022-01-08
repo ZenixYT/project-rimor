@@ -5,6 +5,7 @@ class Game:
     def __init__(self):
         self.__game_state = "main_menu"
 
+    # Handles the current game state.
     def handle_state(self):
         if self.__game_state == "main_menu":
             utils.clear_screen()
@@ -33,6 +34,7 @@ class Game:
             print(Fore.LIGHTBLACK_EX, end="") # Setting the options colors
             print("Options not implemented yet.\nExit options [exit]")
 
+    # Processes the commands based on the current game state.
     def process_command(self, cmd: str):
         if self.__game_state == "main_menu":
             if cmd == "single":
@@ -51,5 +53,7 @@ class Game:
     def set_state(self, state: str):
         self.__game_state = state
 
-    def update(delta: float):
-        pass
+    def update(self):
+        self.handle_state()
+        cmd = input("> ")
+        self.process_command(cmd)
